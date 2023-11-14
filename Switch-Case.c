@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-
-    int month = 13;
+    printf("%s", "Enter the number of a month: ");
+    int month;
+    scanf("%d",&month);
 
     switch(month) {
         case 1:
