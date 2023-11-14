@@ -1,14 +1,16 @@
 #include <stdio.h>
+
 int main() {
-    
-    // Separate declaration and initialisation
-    int number;
-    number = 128;
-    printf("%d\n", number);
-    
-    // Combined declaration and initialisation
-    float pi = 3.14159;
-    printf("Pi is roughly equivalent to %f\n", pi);
-    
+
+    int a = 2;
+    int b = 3;
+
+    if (a > b) {
+        printf("%i\n", a);
+    } else if (b > a) {
+        printf("%i\n", b);
+    } else {
+        printf("%s\n", "a is equal to b");
+    }
     return 0;
 }
