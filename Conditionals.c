@@ -1,12 +1,16 @@
 #include <stdio.h>
 
-int a = 2;
-int b = 3;
+int main() {
 
-if (a > b) {
-    printf("%i\n", a);
-} else if (b > a) {
-    printf("%i\n", b);
-} else {
-    printf("%s\n", "a is equal to b");
+    int a = 3;
+    int b = 3;
+
+    if (a > b) {
+        printf("%d\n", a);
+    } else if (b > a) {
+        printf("%d\n", b);
+    } else {
+        printf("%s\n", "a is equal to b");
+    }
+    return 0;
 }
